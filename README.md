@@ -12,6 +12,7 @@ namespace SlashNetMemTest
     {
         static void Main(string[] args)
         {
+            //true for enable debug
             SlashMemoryManager memoryManager = new SlashMemoryManager(true);
 
             //Attach to process
@@ -66,3 +67,9 @@ namespace SlashNetMemTest
     }
 }
 ```
+
+## Features
+
+### Read Memory
+### Write Memory
+### AoB Search
